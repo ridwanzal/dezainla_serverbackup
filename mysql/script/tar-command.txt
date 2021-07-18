@@ -1,0 +1,2 @@
+tar c databases | gzip --best > databasebackup.tar.gz
+mv databasebackup.tar.gz db_backup_20210718.tar.gz
